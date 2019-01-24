@@ -1,0 +1,23 @@
+galaxy_info:
+  author: Ian Tewksbury
+  description: Ansible role for logging into an OpenShift cluster using `oc` tools.
+  company: Red Hat, Inc.
+  license: license (Apache)
+  min_ansible_version: 2.6
+  platforms:
+    - name: EL
+      versions:
+        - 7
+  galaxy_tags:
+    - ocp
+    - openshift
+    - redhat
+    - rhc
+    - tools
+  categories:
+    - ocp
+    - openshift
+    - redhat
+    - rhc
+    - tools
+dependencies: []
