@@ -1,4 +1,4 @@
 ---
 - debug:
-    msg: System {{ inventory_hostname }} has gateway {{ ansible_default_ipv4.gateway }}
+    msg: "System {{ inventory_hostname }} has gateway {{ ansible_default_ipv4.gateway }}"
   when: ocp_token is defined
