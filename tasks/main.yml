@@ -1,4 +1,7 @@
 ---
 - debug:
-    msg: "bar"
+    msg: "--token"
+  when: ocp_token is defined
+- debug:
+    msg: "--password"
   when: ocp_token is defined
