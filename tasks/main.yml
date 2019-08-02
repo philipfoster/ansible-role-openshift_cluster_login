@@ -1,4 +1,4 @@
 ---
 - debug:
     msg: "bar"
-  when: ocp_token is undefined
+  when: yourmom is undefined
