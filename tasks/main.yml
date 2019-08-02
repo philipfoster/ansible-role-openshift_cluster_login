@@ -1,3 +1,4 @@
 ---
 - debug:
     msg: "foo"
+  when: ocp_token is undefined
