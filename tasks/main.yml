@@ -1,5 +1,5 @@
 ---
-- name: "Log in to openshift cluster with token: {{ ocp_url }}"
+- name: "Log in to openshift cluster with token:"
   #command: "oc login -u '{{ ocp_user }}' -p '{{ ocp_password }}' --insecure-skip-tls-verify='{{ ocp_login_skip_tls_verify | default('false') }}' '{{ ocp_url }}'"
   debug:
     msg: "{{ '--token=' }}"
