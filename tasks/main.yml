@@ -1,4 +1,4 @@
 ---
 - debug:
     msg: "bar"
-  when: yourmom is defined
+  when: ocp_token is defined
