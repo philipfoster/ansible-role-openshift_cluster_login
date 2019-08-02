@@ -4,4 +4,4 @@
   when: ocp_token is defined
 - debug:
     msg: "--password"
-  when: ocp_token is defined
+  when: ocp_token is undefined
