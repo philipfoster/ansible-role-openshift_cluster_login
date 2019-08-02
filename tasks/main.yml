@@ -1,4 +1,4 @@
 ---
 - debug:
     msg: "bar"
-  when: yourmom is undefined
+  when: yourmom is defined
