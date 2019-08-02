@@ -7,7 +7,7 @@
     msg: "{{ '--token=' }}"
     when: ocp_token is defined
 
-- name: "Log in to openshift cluster with username / password: {{ ocp_url}}"
-  debug:
-    msg: "{{ 'no token' }}"
-    when: ocp_token is undefined
+#- name: "Log in to openshift cluster with username / password: {{ ocp_url}}"
+  #debug:
+    #msg: "{{ 'no token' }}"
+    #when: ocp_token is undefined
